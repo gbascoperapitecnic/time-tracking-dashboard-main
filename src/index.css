@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +32,8 @@ body{
   --Desaturatedblue: hsl(235, 45%, 61%);
   --PaleBlue: hsl(236, 100%, 87%);
 }
-#root{
+
+/*#root{
   border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -36,7 +42,7 @@ body{
 .card{
  width: 30px;
  height: 30px;
- /* border: 1px solid red;  */
+ border: 1px solid red; 
 }
 .card-report{
 
@@ -49,4 +55,4 @@ body{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
+} */
